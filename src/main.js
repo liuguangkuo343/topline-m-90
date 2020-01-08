@@ -6,7 +6,8 @@ import store from './store'
 import './utils/register-vant'
 // 动态设置REM基准值(HTML标签字体大小)
 import 'amfe-flexible'
-
+// 引入基础样式文件
+import '@/styles/index.less'
 Vue.config.productionTip = false
 new Vue({
   router,

@@ -17,7 +17,7 @@
           <van-button slot="button" size="small" type="primary">发送验证码</van-button>
     </van-field>
     </van-cell-group>
-    <div><van-button type="info">信息按钮</van-button>
+    <div class="btn-wrap"><van-button type="info">登录</van-button>
 </div>
   </div>
 </template>
@@ -28,5 +28,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="less">
+  .btn-wrap{
+    padding: 27px 16px;
+    .van-button{
+      width: 100%;
+      background-color: #6db4fb;
+      border-radius: 5px
+    }
+  }
 </style>
